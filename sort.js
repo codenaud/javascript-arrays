@@ -69,5 +69,9 @@ console.log(sortedStudents3);
 
 const numeros = [1000, 30, 50, 10, 100];
 
+// si tuilizamos solo el método sort para ordenar número los ordenada alfavéticamente
+console.log(numeros.sort());
+
+// Debemos utilizar implementar el método sort correctamente para obtener el orden correcto
 const sortedNum = numeros.sort((a, b) => a - b);
 console.log(sortedNum);
